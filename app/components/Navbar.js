@@ -40,19 +40,19 @@ const Navbar = () => {
 
 					{/* Desktop Menu */}
 					<div className="hidden md:flex">
-						<Link href="#features" className="mx-3 text-gray-700 hover:text-blue-600">
+						<Link href="#features" className="mx-3 font-Nunito font-medium text-gray-700 hover:text-blue-600 transition">
 							Features
 						</Link>
 
-						<Link href="#how-it-works" className="mx-3 text-gray-700 hover:text-blue-600">
+						<Link href="#how-it-works" className="mx-3 font-Nunito font-medium text-gray-700 hover:text-blue-600 transition">
 							How It Works
 						</Link>
 
-						<Link href="#benefits" className="mx-3 text-gray-700 hover:text-blue-600">
+						<Link href="#benefits" className="mx-3 font-Nunito font-medium text-gray-700 hover:text-blue-600 transition">
 							Benefits
 						</Link>
 					</div>
-					<Link href="#waiting-list" className="mx-3 ml-24 hidden md:flex text-white bg-blue-600 px-4 py-2 rounded hover:bg-blue-700 transition">
+					<Link href="#waiting-list" className="mx-3 font-Nunito font-medium ml-24 hidden md:flex text-white bg-blue-600 px-4 py-2 rounded hover:bg-blue-700 transition">
 						Join Waitlist
 					</Link>
 					{/* Mobile Menu Button */}
