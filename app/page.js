@@ -6,6 +6,7 @@ import WaitingList from "./components/WaitingList";
 import Layout from "./components/Layout";
 import Stats from "./components/Stats";
 import FAQ from "./components/FAQ";
+import Testimonial from "./components/Testimonial";
 
 export default function Home() {
 	return (
@@ -16,6 +17,7 @@ export default function Home() {
 				<HowItWorks />
 				<Stats />
 				<Benefits />
+				<Testimonial />
 				<WaitingList />
 				<FAQ />
 			</Layout>

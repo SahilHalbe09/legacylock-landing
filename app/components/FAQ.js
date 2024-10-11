@@ -54,7 +54,13 @@ const FAQ = () => {
 							<button type="button" className="flex items-center justify-between w-full px-4 py-5 sm:p-6" onClick={() => toggleFaq(index)}>
 								<span className="flex text-lg font-semibold text-black"> {item.question} </span>
 
-								<svg className={`w-6 h-6 text-gray-400 ${item.open ? "rotate-180" : ""}`} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<svg
+									className={`w-6 h-6 text-gray-400 ${item.open ? "rotate-180 transition-transform duration-300" : "transition-transform duration-300"}`}
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor"
+								>
 									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
 								</svg>
 							</button>
