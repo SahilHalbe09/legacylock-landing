@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 import WaitingList from "./components/WaitingList";
 import Layout from "./components/Layout";
+import Stats from "./components/Stats";
+import FAQ from "./components/FAQ";
 
 export default function Home() {
 	return (
@@ -12,8 +14,10 @@ export default function Home() {
 				<Hero />
 				<Features />
 				<HowItWorks />
+				<Stats />
 				<Benefits />
 				<WaitingList />
+				<FAQ />
 			</Layout>
 		</main>
 	);
